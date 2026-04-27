@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MindfulChat · AI for Student Wellbeing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="mainnav">
+  <a href="#home" class="nav-brand">
+    <div class="nav-icon">🧘</div>
+    <span class="nav-wordmark">Mindful<span>Chat</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#domain">Domain</a></li>
+    <li><a href="#components">Components</a></li>
+    <li><a href="#milestones">Milestones</a></li>
+    <li><a href="#documents">Documents</a></li>
+    <li><a href="#slides">Slides</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <span class="nav-tag">25-26J-138 · SLIIT</span>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <span class="petal">🌸</span>
+  <span class="petal">✦</span>
+  <span class="petal">🌷</span>
+  <span class="petal">✿</span>
+
+  <div class="hero-badge">SLIIT Research Project · 2025 – 2026</div>
+
+  <div class="hero-logo-wrap">
+    <div class="hero-logo-icon">🧘</div>
+    <h1 class="hero-title">Mindful<span class="chat-part">Chat</span></h1>
+  </div>
+
+  <p class="hero-tagline">Neuro-Symbolic & Cognitive AI for Adaptive Stress Regulation</p>
+
+  <p class="hero-intro">
+    MindfulChat is an intelligent AI chatbot designed to help university students manage stress through personalised, real-time support. Powered by a unique blend of neural intelligence and structured reasoning, it understands not just what users feel, but the context behind their emotions — delivering more meaningful and human-like interactions. By continuously learning from user behaviour and detecting cognitive load, MindfulChat adapts to provide the right support at the right time.
+  </p>
+
+ 
+
+  <a href="#domain" class="hero-cta">Explore Research ↓</a>
+</section>
+
+<!-- STATS -->
+<div class="stats-band">
+  <div class="stats-inner">
+    <div class="stat-box">
+      <div class="stat-n">20%</div>
+      <div class="stat-l">of college students experience serious psychological distress</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-n">35%</div>
+      <div class="stat-l">diagnosed with anxiety disorders at university</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-n">84%</div>
+      <div class="stat-l">facing academic challenges report high levels of distress</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-n">4</div>
+      <div class="stat-l">integrated AI components for holistic stress regulation</div>
+    </div>
+  </div>
+</div>
+
+<!-- DOMAIN -->
+<section id="domain">
+  <div class="wrap">
+    <div class="s-eyebrow reveal">Domain</div>
+    <h2 class="s-heading reveal">Research Foundation &<br><em>Knowledge Base</em></h2>
+    <p class="s-lead reveal">Explore the literature, gaps, problem statement, objectives, methodology and technologies that underpin MindfulChat.</p>
+
+    <!-- Tab nav -->
+    <div class="tab-nav reveal">
+      <button class="tab-btn active" onclick="switchTab(this,'lit')">Literature Survey</button>
+      <button class="tab-btn" onclick="switchTab(this,'gap')">Research Gap</button>
+      <button class="tab-btn" onclick="switchTab(this,'prob')">Research Problem</button>
+      <button class="tab-btn" onclick="switchTab(this,'obj')">Objectives</button>
+      <button class="tab-btn" onclick="switchTab(this,'meth')">Methodology</button>
+      <button class="tab-btn" onclick="switchTab(this,'tech')">Technologies</button>
+    </div>
+
+    <!-- LIT -->
+    <div class="tab-panel active" id="tab-lit">
+      <div class="lit-grid">
+        <div class="lit-card">
+          <div class="lit-n">01 · Early Solutions</div>
+          <h3>Text-Based Sentiment & ML Models</h3>
+          <p>Early AI-based stress detection primarily relied on text sentiment analysis and standalone machine learning models. While effective at detecting emotional cues, these systems lacked deeper reasoning, contextual understanding, and personalisation — resulting in rigid, one-size-fits-all responses that failed to adapt to individual student needs.</p>
+        </div>
+        <div class="lit-card">
+          <div class="lit-n">02 · Multimodal Computing</div>
+          <h3>Facial, Voice & Physiological Signals</h3>
+          <p>Recent advances in multimodal affective computing incorporate facial expressions, voice patterns, and physiological signals such as heart rate (BPM), significantly improving stress detection accuracy. However, these systems largely remain black-box models — offering predictions without clear explanations or structured intervention strategies.</p>
+        </div>
+        <div class="lit-card">
+          <div class="lit-n">03 · Neuro-Symbolic AI</div>
+          <h3>A Hybrid Intelligence Paradigm</h3>
+          <p>Neuro-Symbolic AI has emerged as a transformative hybrid approach combining neural networks (for perception and pattern recognition) with symbolic reasoning (for logic, interpretability, and structured decision-making). This enables systems that not only detect stress but also reason about it, explain their decisions, and provide psychologically grounded interventions.</p>
+        </div>
+        <div class="lit-card">
+          <div class="lit-n">04 · Current Gap</div>
+          <h3>Missing Unified Intelligence</h3>
+          <p>Despite advances, most existing solutions fail to unify neural learning with structured symbolic reasoning — the combination essential for building trustworthy and effective mental health systems. Additionally, cognitive load detection and explainable AI-driven personalisation remain largely absent from current undergraduate support tools.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- GAP -->
+    <div class="tab-panel" id="tab-gap">
+      <div class="gap-block gb-1">
+        <h4>Gap 1 — Black-Box Neural Systems</h4>
+        <p>Current systems rely heavily on neural-only approaches that lack transparency. In mental health contexts where clinical trust and accountability are essential, systems that cannot articulate their reasoning are severely limited and potentially unsafe for vulnerable users.</p>
+      </div>
+      <div class="gap-block gb-2">
+        <h4>Gap 2 — Limited Multimodal Integration</h4>
+        <p>Most existing tools use only text input, missing the richer picture offered by facial expressions, voice tone, and physiological signals (BPM/HRV). True understanding of student stress requires fusing all these data sources into a unified, context-aware representation.</p>
+      </div>
+      <div class="gap-block gb-3">
+        <h4>Gap 3 — No Cognitive Load Detection</h4>
+        <p>Existing systems do not account for cognitive load — the mental workload a student experiences during study. Without this dimension, stress interventions lack the contextual grounding needed to be relevant, timely, and effective.</p>
+      </div>
+      <div class="gap-block gb-1">
+        <h4>Gap 4 — Lack of Explainable Reasoning</h4>
+        <p>Current chatbots cannot explain why they suggest a particular intervention. This absence of reasoning transparency undermines user trust and prevents clinicians from validating AI-generated recommendations — critical shortcomings in a sensitive domain.</p>
+      </div>
+      <div class="gap-block gb-2">
+        <h4>Gap 5 — Minimal Adaptive Personalisation</h4>
+        <p>Most tools treat every student identically over time, failing to learn from interaction history or adapt responses based on evolving emotional patterns. Without personalisation, long-term engagement and effectiveness remain severely limited.</p>
+      </div>
+    </div>
+
+    <!-- PROBLEM -->
+    <div class="tab-panel" id="tab-prob">
+      <div class="problem-card">
+        <p>Undergraduate students experience dynamic stress influenced by academic, emotional, and physiological factors. Existing AI-based tools are limited in their ability to provide <strong>adaptive, explainable, and context-aware support</strong>, as they lack both multimodal understanding and structured reasoning capabilities. There is an urgent need for an intelligent system that can understand stress holistically using multiple data sources, reason about mental states using structured psychological knowledge, and deliver personalised and explainable interventions that genuinely support student wellbeing.</p>
+      </div>
+    </div>
+
+    <!-- OBJECTIVES -->
+    <div class="tab-panel" id="tab-obj">
+      <p style="font-size:0.95rem;color:var(--muted);margin-bottom:24px;"><strong style="color:var(--purple-d)">Primary Objective:</strong> To develop a Neuro-Symbolic and Cognitive AI chatbot that provides adaptive stress regulation for undergraduate students.</p>
+      <div class="obj-grid">
+        <div class="obj-card"><div class="obj-n">01</div><p>Detect stress using multimodal inputs — text, facial expressions, voice tone, and BPM physiological signals — for a holistic understanding of student state.</p></div>
+        <div class="obj-card"><div class="obj-n">02</div><p>Estimate cognitive load in real time using passive behavioural signals to provide context-aware intervention timing and support depth.</p></div>
+        <div class="obj-card"><div class="obj-n">03</div><p>Integrate neural perception models with a symbolic reasoning engine grounded in Cognitive Behavioural Therapy (CBT) frameworks for explainable responses.</p></div>
+        <div class="obj-card"><div class="obj-n">04</div><p>Design and implement CBT-based intervention strategies including relaxation techniques, cognitive reframing, and task simplification guidance.</p></div>
+        <div class="obj-card"><div class="obj-n">05</div><p>Enable explainable AI-driven responses with clear reasoning traces, allowing users and clinicians to understand and trust the system's recommendations.</p></div>
+        <div class="obj-card"><div class="obj-n">06</div><p>Personalise interactions based on individual user history, behavioural patterns, and the effectiveness of past interventions over time.</p></div>
+      </div>
+    </div>
+
+    <!-- METHODOLOGY -->
+    <div class="tab-panel" id="tab-meth">
+      <div class="method-list">
+        <div class="method-row">
+          <span class="method-ph">Layer 1</span>
+          <p><strong>Multimodal Perception (Neural AI)</strong> — Captures user state through four parallel input channels: text (transformer-based NLP), facial expressions (CNN emotion recognition), voice (pitch, tone & speech pattern analysis via Librosa), and BPM/HRV physiological signals for real-time stress inference.</p>
+        </div>
+        <div class="method-row">
+          <span class="method-ph">Layer 2</span>
+          <p><strong>Cognitive Load & Stress Inference</strong> — Outputs from all modalities are fused into a unified representation to estimate stress level (Low / Medium / High) and cognitive load intensity, ensuring holistic and context-aware understanding of each student's current mental state.</p>
+        </div>
+        <div class="method-row">
+          <span class="method-ph">Layer 3</span>
+          <p><strong>Neuro-Symbolic Reasoning (Core Intelligence)</strong> — Neural predictions are interpreted through a symbolic reasoning engine built on CBT-based structured rules. Example: High Stress + High Cognitive Load → relaxation + task simplification. Delivers explainability, consistency, and psychological grounding.</p>
+        </div>
+        <div class="method-row">
+          <span class="method-ph">Layer 4</span>
+          <p><strong>Memory & Personalisation</strong> — Maintains a dynamic user profile tracking stress patterns, cognitive load trends, recurring triggers, and the effectiveness of past interventions — enabling progressively more personalised and adaptive responses over time.</p>
+        </div>
+        <div class="method-row">
+          <span class="method-ph">Layer 5</span>
+          <p><strong>Adaptive Intervention Engine</strong> — Delivers context-aware, personalised support including CBT coping strategies, breathing and relaxation techniques, study and time management guidance, and cognitive reframing — continuously refined through user feedback.</p>
+        </div>
+        <div class="method-row">
+          <span class="method-ph">Layer 6</span>
+          <p><strong>Continuous Learning & Evaluation</strong> — The system improves through model evaluation (accuracy, precision, F1-score), user feedback loops, engagement metrics, and iterative refinement of both reasoning rules and personalisation strategies.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECH -->
+    <div class="tab-panel" id="tab-tech">
+      <div class="tech-sections">
+        <div class="tech-group">
+          <div class="tech-group-title">Neuro-Symbolic AI</div>
+          <div class="tech-item">Python – core system development</div>
+          <div class="tech-item">Rule-Based Reasoning Engine – CBT decision logic</div>
+          <div class="tech-item">Neo4j – Knowledge Graph representation</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">ML & Deep Learning</div>
+          <div class="tech-item">TensorFlow / PyTorch – model training</div>
+          <div class="tech-item">Scikit-learn – evaluation & baselines</div>
+          <div class="tech-item">Hugging Face (BERT / RoBERTa) – text understanding</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">NLP</div>
+          <div class="tech-item">SpaCy – preprocessing & tokenization</div>
+          <div class="tech-item">NLTK – linguistic processing</div>
+          <div class="tech-item">Sentiment & Emotion Models – stress detection</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">Computer Vision</div>
+          <div class="tech-item">OpenCV – image & video processing</div>
+          <div class="tech-item">CNN Models – facial emotion recognition</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">Speech & Voice</div>
+          <div class="tech-item">Librosa – audio feature extraction</div>
+          <div class="tech-item">Speech-to-Text APIs – voice input</div>
+          <div class="tech-item">Voice Emotion Analysis – pitch & tone</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">Physiological Signals</div>
+          <div class="tech-item">BPM / Heart Rate Sensors – real-time data</div>
+          <div class="tech-item">HRV Analysis – cognitive load estimation</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">Backend & Frontend</div>
+          <div class="tech-item">FastAPI – API development & integration</div>
+          <div class="tech-item">React / React Native – chatbot interface</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">Database</div>
+          <div class="tech-item">MongoDB – conversation data</div>
+          <div class="tech-item">PostgreSQL – structured user logs</div>
+        </div>
+        <div class="tech-group">
+          <div class="tech-group-title">Deployment & Tools</div>
+          <div class="tech-item">Docker – containerization</div>
+          <div class="tech-item">Git / GitHub – version control</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPONENTS -->
+<section id="components">
+  <div class="wrap">
+    <div class="s-eyebrow reveal">System Components</div>
+    <h2 class="s-heading reveal">Four Integrated<br><em>AI Pillars</em></h2>
+    <p class="s-lead reveal">MindfulChat is built on four tightly coupled components that work in concert to deliver adaptive, explainable, and personalised stress regulation.</p>
+
+    <div class="comp-grid">
+      <div class="comp-card cc1 reveal">
+        <div class="comp-num">Component 01</div>
+        <span class="comp-emoji">🧠</span>
+        <h3>Neuro-Symbolic Emotion Reasoning Engine</h3>
+        <p>The intellectual core of MindfulChat. Fuses Transformer-based neural models for emotional pattern recognition with a Psychological Knowledge Graph for symbolic CBT-grounded reasoning. Produces transparent, human-interpretable reasoning traces — explaining <em>why</em> a student is experiencing a particular emotional state and selecting the most appropriate intervention.</p>
+      </div>
+      <div class="comp-card cc2 reveal">
+        <div class="comp-num">Component 02</div>
+        <span class="comp-emoji">📊</span>
+        <h3>Cognitive Load Detection via Passive Behavioral Signals</h3>
+        <p>Continuously monitors implicit behavioural signals — typing rhythm, response latency, session duration, linguistic complexity, and physiological BPM/HRV data — to assess a student's current cognitive load in real time. Provides critical contextual grounding beyond explicit text, enabling more accurate and timely stress state inference without intrusive active input.</p>
+      </div>
+      <div class="comp-card cc3 reveal">
+        <div class="comp-num">Component 03</div>
+        <span class="comp-emoji">📈</span>
+        <h3>Emotion-Aware Continual Learning Engine with Personalised Trends Visualisation</h3>
+        <p>Enables the system to continuously adapt to each student's evolving emotional patterns without catastrophic forgetting. Builds rich longitudinal personal profiles tracking recurring stress triggers and effective coping strategies. Delivers an intuitive wellbeing dashboard allowing students to visualise their emotional journey and celebrate progress over time.</p>
+      </div>
+      <div class="comp-card cc4 reveal">
+        <div class="comp-num">Component 04</div>
+        <span class="comp-emoji">⚡</span>
+        <h3>Adaptive Intervention Timing & Modality Selector</h3>
+        <p>Determines the optimal moment and delivery method for each intervention. Weighing inferred emotional state, cognitive load, and historical engagement patterns, this component selects the most effective support type — from mindfulness and breathing exercises to time management tips, cognitive reframing, or a compassionate prompt to seek professional help when needed.</p>
+      </div>
+    </div>
+
+    <div class="flow-wrap reveal">
+      <h3>How MindfulChat Understands & Responds</h3>
+      <div class="flow-steps">
+        <div class="flow-step"><div class="flow-circle">💬</div><span>Student Input</span></div>
+        <div class="flow-arr">→</div>
+        <div class="flow-step"><div class="flow-circle">🔤</div><span>NLP Processing</span></div>
+        <div class="flow-arr">→</div>
+        <div class="flow-step"><div class="flow-circle">👁️</div><span>Multimodal Fusion</span></div>
+        <div class="flow-arr">→</div>
+        <div class="flow-step"><div class="flow-circle">🔗</div><span>Symbol Grounding</span></div>
+        <div class="flow-arr">→</div>
+        <div class="flow-step"><div class="flow-circle">⚖️</div><span>CBT Reasoning</span></div>
+        <div class="flow-arr">→</div>
+        <div class="flow-step"><div class="flow-circle">💡</div><span>Explainable Inference</span></div>
+        <div class="flow-arr">→</div>
+        <div class="flow-step"><div class="flow-circle">🌸</div><span>Adaptive Response</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MILESTONES -->
+<section id="milestones">
+  <div class="wrap">
+    <div class="s-eyebrow reveal">Milestones</div>
+    <h2 class="s-heading reveal">Project Timeline &<br><span class="li">Assessment Schedule</span></h2>
+    <p class="s-lead reveal">Select a milestone below to view details including assessment date and marks allocated.</p>
+
+    <!-- Dropdown -->
+    <div class="milestone-select-wrap reveal">
+      <select class="milestone-select" onchange="showMilestone(this.value)">
+        <option value="">— Select a Milestone —</option>
+        <option value="pp">Project Proposal</option>
+        <option value="pi">Progress Presentation I</option>
+        <option value="pii">Progress Presentation II</option>
+        <option value="fa">Final Assessment</option>
+        <option value="viva">Viva</option>
+      </select>
+    </div>
+
+    <div class="milestone-detail" id="ms-pp">
+      <div class="ms-header">
+        <div><div class="ms-title">Project Proposal</div><div class="ms-date">August 2025</div></div>
+        <div class="ms-marks">10%<span>Marks</span></div>
+      </div>
+      <span class="ms-badge ms-done">✓ Completed</span>
+      <div class="ms-desc">Comprehensive research proposal covering literature survey, identified research gaps, research problem statement, objectives, system architecture design, methodology, budget justification, and commercialisation strategy. Both draft and final versions submitted, followed by a formal panel presentation.</div>
+    </div>
+    <div class="milestone-detail" id="ms-pi">
+      <div class="ms-header">
+        <div><div class="ms-title">Progress Presentation I</div><div class="ms-date">November 2025 – January 2026</div></div>
+        <div class="ms-marks">15%<span>Marks</span></div>
+      </div>
+      <span class="ms-badge ms-done">✓ Completed</span>
+      <div class="ms-desc">Mid-point evaluation demonstrating 50% system implementation. Expected deliverables include: trained neural emotion classifier, initial Psychological Knowledge Graph, preliminary symbolic reasoning integration, and Check List I submission. Live demonstration to evaluation panel.</div>
+    </div>
+    <div class="milestone-detail" id="ms-pii">
+      <div class="ms-header">
+        <div><div class="ms-title">Progress Presentation II</div><div class="ms-date">April 2026</div></div>
+        <div class="ms-marks">15%<span>Marks</span></div>
+      </div>
+      <span class="ms-badge ms-done">✓ Completed</span>
+      <div class="ms-desc">Near-complete system demonstration targeting 90% implementation. Deliverables include: integrated four-component system, performance metrics (accuracy, precision, F1-score), explainability evaluation, user satisfaction pilot results, and Check List II. Panel evaluation with Q&A.</div>
+    </div>
+    <div class="milestone-detail" id="ms-fa">
+      <div class="ms-header">
+        <div><div class="ms-title">Final Assessment</div><div class="ms-date">May – July 2026</div></div>
+        <div class="ms-marks">40%<span>Marks</span></div>
+      </div>
+      <span class="ms-badge ms-active">● Current Phase</span>
+      <div class="ms-desc">Complete final dissertation submission covering all research phases, validated prototype demonstration, comprehensive evaluation results, and publishable research paper targeting peer-reviewed journal submission. Project website and research logbook finalised and submitted.</div>
+    </div>
+    <div class="milestone-detail" id="ms-viva">
+      <div class="ms-header">
+        <div><div class="ms-title">Viva</div><div class="ms-date">July 2026</div></div>
+        <div class="ms-marks">—<span>Marks</span></div>
+      </div>
+      <span class="ms-badge ms-upcoming">○ Upcoming</span>
+      <div class="ms-desc">Oral examination and live system defence before the evaluation committee. Students will present and defend their research contributions, demonstrate the working system, and respond to in-depth technical questions from panel members.</div>
+    </div>
+
+    <!-- Timeline overview -->
+    <div style="margin-top:56px">
+      <div class="s-eyebrow reveal" style="margin-bottom:24px">Full Timeline Overview</div>
+      <div class="timeline reveal">
+        <div class="tl-item"><div class="tl-dot done"></div><div class="tl-date">June 2025</div><div class="tl-title">Group Registration & TAF</div><div class="tl-desc">Topic selection, team formation, and Topic Assessment Form submission.</div></div>
+        <div class="tl-item"><div class="tl-dot done"></div><div class="tl-date">July 2025</div><div class="tl-title">Project Charter Submission</div><div class="tl-desc">Formal charter defining scope, team roles, objectives, and risk assessment.</div></div>
+        <div class="tl-item"><div class="tl-dot done"></div><div class="tl-date">August 2025</div><div class="tl-title">Proposal Report & Presentation</div><div class="tl-desc">Complete proposal submitted and presented to evaluation panel.</div></div>
+        <div class="tl-item"><div class="tl-dot done"></div><div class="tl-date">Sep – Nov 2025</div><div class="tl-title">Data Acquisition & Core Development</div><div class="tl-desc">Dataset collection, annotation, Knowledge Graph construction, neural model training begins.</div></div>
+        <div class="tl-item"><div class="tl-dot done"></div><div class="tl-date">Nov 2025 – Jan 2026</div><div class="tl-title">Progress Presentation I & Check List I</div><div class="tl-desc">50% implementation milestone evaluation. ✓ Completed</div></div>
+        <div class="tl-item"><div class="tl-dot done"></div><div class="tl-date">Jan – Apr 2026</div><div class="tl-title">Progress Presentation II & Check List II</div><div class="tl-desc">Complete four-component integration, testing, and second panel evaluation. ✓ Completed</div></div>
+        <div class="tl-item"><div class="tl-dot now"></div><div class="tl-date">May – Jul 2026</div><div class="tl-title">Final Evaluation & Viva</div><div class="tl-desc">Dissertation submission, final presentation, oral examination, and project completion. ← Current Phase</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCUMENTS -->
+<section id="documents">
+  <div class="wrap">
+    <div class="s-eyebrow reveal">Documents</div>
+    <h2 class="s-heading reveal">Research <em>Documents</em></h2>
+    <p class="s-lead reveal">All produced and pending project documents. Available documents can be downloaded directly — pending documents will appear here as the project progresses.</p>
+
+    <div class="docs-grid reveal">
+      <div class="doc-card">
+        <div class="doc-emoji">�</div>
+        <div class="doc-type">Project Charter</div>
+        <h4>Project Charter — MindfulChat Research Project</h4>
+        <a class="doc-btn" href="assets/Documents/TAF_25-26J-138 .pdf" download>⬇ Download PDF</a>
+      </div>
+      <div class="doc-card">
+        <div class="doc-emoji">📄</div>
+        <div class="doc-type">Proposals</div>
+        <h4>Team Member Proposal Reports — Complete Set</h4>
+        <a class="doc-btn" href="assets/Documents/Proposal.zip" download>⬇ Download ZIP</a>
+      </div>
+      <div class="doc-card">
+        <div class="doc-emoji">✅</div>
+        <div class="doc-type">Check List I</div>
+        <h4>Check List I — Mid-Point Evaluation</h4>
+        <a class="doc-btn" href="assets/Documents/Checklist 1.zip" download>⬇ Download ZIP</a>
+      </div>
+      <div class="doc-card">
+        <div class="doc-emoji">✅</div>
+        <div class="doc-type">Check List II</div>
+        <h4>Check List II — Final Evaluation Document</h4>
+        <span class="doc-btn pend">🔒 Not Yet Available</span>
+      </div>
+      <div class="doc-card">
+        <div class="doc-emoji">📚</div>
+        <div class="doc-type">Final Report</div>
+        <h4>Final Dissertation — Complete Research (4 volumes)</h4>
+        <span class="doc-btn pend">🔒 Not Yet Available</span>
+      </div>
+      <div class="doc-card">
+        <div class="doc-emoji">🔬</div>
+        <div class="doc-type">Research Paper</div>
+        <h4>Publishable Research Paper — Peer Review Submission</h4>
+        <span class="doc-btn pend">🔒 Not Yet Available</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDES -->
+<section id="slides">
+  <div class="wrap">
+    <div class="s-eyebrow reveal">Presentations</div>
+    <h2 class="s-heading reveal">Presentation <em>Slides</em></h2>
+    <p class="s-lead reveal">Slides from past and upcoming presentations. Download directly where available.</p>
+
+    <div class="slides-grid reveal">
+      <div class="slide-card">
+        <div class="slide-thumb">🎯</div>
+        <div class="slide-info">
+          <h4>Proposal Presentation</h4>
+          <p>Research proposal, methodology, architecture & commercialisation</p>
+          <a class="slide-dl" href="assets/slides/Proposal Presentation.pptx.pdf" download>⬇ Download Slides</a>
+        </div>
+        <div class="slide-arr">↗</div>
+      </div>
+      <div class="slide-card">
+        <div class="slide-thumb">📊</div>
+        <div class="slide-info">
+          <h4>Progress Presentation I</h4>
+          <p>50% implementation milestone results</p>
+          <a class="slide-dl" href="assets/slides/PP1 Presentation.pdf" download>⬇ Download Slides</a>
+        </div>
+        <div class="slide-arr">↗</div>
+      </div>
+      <div class="slide-card">
+        <div class="slide-thumb">🔬</div>
+        <div class="slide-info">
+          <h4>Progress Presentation II</h4>
+          <p>Near-complete demo with evaluation metrics</p>
+          <a class="slide-dl" href="assets/slides/PP2 Presentation.pdf" download>⬇ Download Slides</a>
+        </div>
+        <div class="slide-arr">↗</div>
+      </div>
+      <div class="slide-card dim">
+        <div class="slide-thumb">🏆</div>
+        <div class="slide-info">
+          <h4>Final Presentation</h4>
+          <p>Complete research outcomes & prototype demo</p>
+          <span style="font-size:0.7rem;color:var(--light);display:block;margin-top:10px">🔒 Not Yet Available</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="s-eyebrow reveal">About Us</div>
+    <h2 class="s-heading reveal">Meet the <em>Team</em></h2>
+    <p class="s-lead reveal">A passionate team of undergraduate researchers from the Department of Computer Science, SLIIT, dedicated to applying AI for real-world student wellbeing.</p>
+
+    <!-- ✏️ FILL IN: Replace all placeholder names, IDs, emails and initials with your actual team details -->
+    <div class="team-grid reveal">
+      <div class="member-card">
+        <div class="m-photo"><img src="assets/members/ramla.png" alt="Ramla" style="width:100%;height:100%;border-radius:50%;object-fit:cover;"></div>
+        <h3>F N F Ramla</h3>
+        <div class="member-role">NSERE</div>
+        <div class="member-id">IT22003928</div>
+        <div class="member-email">IT22003928@my.sliit.lk</div>
+      </div>
+      <div class="member-card">
+        <div class="m-photo" style="background:transparent"><img src="assets/members/chethmi.png" alt="Chethmi" style="width:100%;height:100%;border-radius:50%;object-fit:cover;"></div>
+        <h3>Rathnayake R M C T</h3>
+        <div class="member-role">Cognitive Load Detection</div>
+        <div class="member-id">IT22332912</div>
+        <div class="member-email">IT22332912@my.sliit.lk</div>
+      </div>
+      <div class="member-card">
+        <div class="m-photo" style="background:transparent"><img src="assets/members/charuka.png" alt="Charuka" style="width:100%;height:100%;border-radius:50%;object-fit:cover;"></div>
+        <h3>DAHANAKA D M C B</h3>
+        <div class="member-role">Continual Learning Engine</div>
+        <div class="member-id">IT22886118</div>
+        <div class="member-email">IT22886118@my.sliit.lk</div>
+      </div>
+      <div class="member-card">
+        <div class="m-photo" style="background:transparent"><img src="assets/members/safwa.png" alt="Safwa" style="width:100%;height:100%;border-radius:50%;object-fit:cover;"></div>
+        <h3>Safwa M R F </h3>
+        <div class="member-role">Adaptive Intervention Selector</div>
+        <div class="member-id">IT22628404</div>
+        <div class="member-email">IT22628404@my.sliit.lk</div>
+      </div>
+    </div>
+
+    <!-- Supervisor names -->
+    <div class="s-eyebrow reveal" style="margin-bottom:18px">Supervisors</div>
+    <div class="sups-row reveal">
+      <div class="sup-card">
+        <div class="sup-av">SV</div>
+        <div class="sup-info">
+          <h4>Mr. Samadhi Ratnayaka</h4>
+          <p>Department of Computer Science, SLIIT</p>
+        </div>
+        <div class="sup-tag">Supervisor</div>
+      </div>
+      <div class="sup-card">
+        <div class="sup-av">CS</div>
+        <div class="sup-info">
+          <h4>Ms. Pubudika</h4>
+          <p>Department of Computer Science, SLIIT</p>
+        </div>
+        <div class="sup-tag">Co-Supervisor</div>
+      </div>
+      <div class="sup-card">
+        <div class="sup-av">NA</div>
+        <div class="sup-info">
+          <h4>Dr. Nilanga Abeysekara</h4>
+          <p>External Supervisor</p>
+        </div>
+        <div class="sup-tag">External Supervisor</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="c-left reveal">
+        <div class="s-eyebrow" style="margin-bottom:16px">Contact Us</div>
+        <h2>Get In <em style="font-family:var(--ff-head);color:var(--purple-d)">Touch</em></h2>
+        <p>Interested in our research or have questions about MindfulChat? We'd love to hear from you.</p>
+        <div class="c-links">
+          <!-- Contact Information -->
+          <a href="mailto:mindfulchat@gmail.com" class="c-link">
+            <div class="c-ico">✉️</div> mindfulchat@gmail.com
+          </a>
+          <!-- Phone Number -->
+          <a href="tel:+94761662516" class="c-link">
+            <div class="c-ico">📱</div> +94 761 662 516
+          </a>
+          <a href="#" class="c-link">
+            <div class="c-ico">🏛️</div> Dept. of Computer Science, SLIIT, Malabe
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <div class="f-row">
+          <div class="f-group"><label>First Name</label><input type="text" placeholder="Your name"></div>
+          <div class="f-group"><label>Last Name</label><input type="text" placeholder="Your surname"></div>
+        </div>
+        <div class="f-group"><label>Email</label><input type="email" placeholder="your@email.com"></div>
+        <div class="f-group"><label>Subject</label><input type="text" placeholder="Research inquiry, collaboration..."></div>
+        <div class="f-group"><label>Message</label><textarea rows="5" placeholder="Write your message here..."></textarea></div>
+        <button class="f-submit" onclick="sendMsg(this)">Send Message →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-brand">
+    <div class="foot-icon">🧘</div>
+    <span class="foot-name">Mindful<em>Chat</em></span>
+  </div>
+  <div class="foot-meta">
+    25-26J-138 · Sri Lanka Institute of Information Technology<br>
+    Department of Computer Science · 2025 – 2026
+  </div>
+  <div class="foot-links">
+    <a href="#home">Home</a>
+    <a href="#domain">Domain</a>
+    <a href="#components">Components</a>
+    <a href="#milestones">Milestones</a>
+    <a href="#documents">Documents</a>
+    <a href="#slides">Slides</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+// Scroll reveal
+const revEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver(entries => {
+  entries.forEach((e,i) => {
+    if(e.isIntersecting){ setTimeout(()=>e.target.classList.add('up'),i*55); io.unobserve(e.target); }
+  });
+},{threshold:0.07});
+revEls.forEach(r=>io.observe(r));
+
+// Nav scroll
+window.addEventListener('scroll',()=>{
+  document.getElementById('mainnav').classList.toggle('scrolled',window.scrollY>30);
+  // active link
+  let cur='';
+  document.querySelectorAll('section[id]').forEach(s=>{ if(window.scrollY>=s.offsetTop-150) cur=s.id; });
+  document.querySelectorAll('.nav-links a').forEach(a=>{
+    a.style.color = a.getAttribute('href')==='#'+cur ? 'var(--purple-d)' : '';
+  });
+});
+
+// Domain tabs
+function switchTab(btn, id){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('tab-'+id).classList.add('active');
+}
+
+// Milestones dropdown
+function showMilestone(val){
+  document.querySelectorAll('.milestone-detail').forEach(d=>d.classList.remove('show'));
+  if(val) document.getElementById('ms-'+val)?.classList.add('show');
+}
+
+// Contact form
+function sendMsg(btn){
+  btn.textContent='Sent 💜';
+  btn.style.background='var(--purple)';
+  setTimeout(()=>{ btn.textContent='Send Message →'; btn.style.background=''; },3000);
+}
+</script>
+</body>
+</html>
